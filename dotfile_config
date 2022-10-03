@@ -6,3 +6,6 @@ for file in `ls -I cpdf`; do
 	(set -x
 	ln -sf "${cur_dir}/${file}" ~/.config)
 done
+
+set -x
+ln -sf "${cur_dir}/.bashrc" ~
