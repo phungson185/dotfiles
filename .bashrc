@@ -60,6 +60,7 @@ fi
 
 # Git Aliases
 if [[ -x "$(command -v git)" ]]; then
+	alias gcl='git clone'
 	alias gs='git status'
 	alias gp='git pull'
 	alias gf='git fetch'
@@ -154,4 +155,4 @@ alias ldir="ls -la | egrep '^d'"      # directories only
 
 # Start nvm
 source ~/.nvm/nvm.sh
-export NODE_OPTIONS=--openssl-legacy-provider
+
